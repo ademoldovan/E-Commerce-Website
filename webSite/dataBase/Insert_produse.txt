@@ -1,0 +1,191 @@
+
+create table Produse(
+id integer(4),
+nume varchar(100) NOT NULL,
+categorie varchar(30) NOT NULL,
+brand varchar(40) NOT NULL,
+furnizor varchar(30) NOT NULL,
+stoc integer(3) NOT NULL,
+pret float(4) NOT NULL,
+specificatii varchar(600) NOT NULL
+);
+
+ALTER TABLE Produse ADD CONSTRAINT id_pk PRIMARY KEY (id);
+
+
+INSERT INTO Produse(id, nume, categorie, brand,  furnizor, stoc, pret, specificatii)
+VALUES ( 51001, "Mouse gaming wireless Razer Basilisk Ultimate & Dock", "Mouse", "Razer", "Ossas Electronics", 15, 439.98, "Iluminare Chroma RGB, ajustare rezistenta scrool, Negru,Butoane/rotite: 11, Tehnologie: fara fir, Senzor: optic, Dimensiune: 130 x 42 x 60 mm");
+INSERT INTO Produse(id, nume, categorie, brand,  furnizor, stoc, pret, specificatii)
+VALUES ( 51002, "Mouse gaming Logitech G502 Hero 16K DPI", "Mouse", "Logitech", "Ossas Electronics", 30, 404.89, "Iluminare Chroma RGB, Rezolutie: 16000 , Negru,Butoane/rotite: 5/1 , Tehnologie: cu fir, Senzor: HERO, Dimensiune: 130 x 42 x 60 mm, Greutate: 0.121kg");
+INSERT INTO Produse(id, nume, categorie, brand,  furnizor, stoc, pret, specificatii)
+VALUES ( 51003, "Mouse gaming Razer DeathAdder Essential", "Mouse", "Razer", "Ossas Electronics", 15, 139.98, "Rezolutie: 16000,Tehnologie: fara fir,Incarcator: Incarcare prin USB,  Senzor: optic, Dimensiune: 130 x 42 x 60 mm, Greutate: 0.119kg");
+INSERT INTO Produse(id, nume, categorie, brand,  furnizor, stoc, pret, specificatii)
+VALUES ( 51004, "Mouse optic ASUS WT425, 1600 dpi, USB", "Mouse", "ASUS", "Ossas Electronics", 15, 39.98, "Interfata mouse: wireless, Negru ,Butoane/rotite: 6/1 , Tehnologie: fara fir, Senzor: optic, Dimensiune: 106.8 x 6.2 x 14.8 mm, Greutate: 0.064g");
+INSERT INTO Produse(id, nume, categorie, brand,  furnizor, stoc, pret, specificatii)
+VALUES ( 51005, "Mouse gaming wireless Redragon Sniper Pro", "Mouse", "Redragon", "Ossas Electronics", 15, 152.98, "Rezolutie: 16000, Negru, Butoane/rotite: 6, Tehnologie: cu fir, Senzor: Optic, Dimensiune: 130 x 42 x 60 mm, Greutate: 0.101kg ");
+
+
+
+INSERT INTO Produse(id, nume, categorie, brand,  furnizor, stoc, pret, specificatii)
+VALUES ( 52001, "Tastatura Gaming HyperX Alloy Elite 2 Red Switch Mecanica", "Tastatura", "HyperX", "Ossas Electronics", 12, 599.99, "Culoare: negru, Interfata: USB, Lungime cablu: 1.8m, Dimensiuni: 444 x 174 x 37.4 mm, Switch: HyperX Red, Culoare LED: RGB");
+INSERT INTO Produse(id, nume, categorie, brand,  furnizor, stoc, pret, specificatii)
+VALUES ( 52002, "Tastatura gaming Logitech G213 RGB", "Tastatura", "Logitech", "Ossas Electronics", 12, 207.99, "Culoare: negru, Interfata: USB,Tehnologie: cu fir, Lungime cablu: 1.8m, Dimensiuni: 452 x 33 x 218 mm, Culoare LED: RGB, Numar taste:105");
+INSERT INTO Produse(id, nume, categorie, brand,  furnizor, stoc, pret, specificatii)
+VALUES ( 52003, "Tastatura gaming Razer Cynosa Lite", "Tastatura", "Razer", "Ossas Electronics", 12, 179.99, "Culoare: negru, Interfata: USB, Lungime cablu: 2m, Dimensiuni: 444 x 174 x 37.4 mm, Culoare LED: RGB, Numar taste: 104  ");
+INSERT INTO Produse(id, nume, categorie, brand,  furnizor, stoc, pret, specificatii)
+VALUES ( 52004, "Tastatura gaming Lenovo Legion K300", "Tastatura", "Lenovo", "Ossas Electronics", 12, 160.99, "Culoare: negru, Interfata: USB, Lungime cablu: 1.8m, Dimensiuni: 444 x 174 x 37.4 mm, Culoare LED: RED");
+INSERT INTO Produse(id, nume, categorie, brand,  furnizor, stoc, pret, specificatii)
+VALUES ( 52005, "Tastatura gaming mecanica Lenovo Legion K500", "Tastatura", "HyperX", "Ossas Electronics", 12, 318.99, "Culoare: negru, Interfata: USB, Lungime cablu: 1.8m, Dimensiuni: 444 x 174 x 37.4 mm,Culoare LED: RGB");
+
+
+
+INSERT INTO Produse(id, nume, categorie, brand,  furnizor, stoc, pret, specificatii)
+VALUES ( 53001, "Casti gaming HyperX Cloud II Pro", "Casti", "HyperX", "Ossas Electronics", 12, 527.99, "Tehnologie: Cu fir, Conectare: Jack 3.5mm, Hz: 15-25000, Impedanta: 60 Ohm, Microfon: Da, Lungime cablu: 3, Sensibilitate: 98 dB");
+INSERT INTO Produse(id, nume, categorie, brand,  furnizor, stoc, pret, specificatii)
+VALUES ( 53002, "Casti gaming Razer Kraken 2019", "Casti", "Razer", "Ossas Electronics", 12, 399.99, "Tehnologie: Cu fir, Conectare: Jack 3.5mm, Hz: 12-28000, Impedanta: 32 Ohm, Microfon: Da, Lungime cablu: 1.3, Diametru difuzor: 50mm");
+INSERT INTO Produse(id, nume, categorie, brand,  furnizor, stoc, pret, specificatii)
+VALUES ( 53003, "Casti gaming Redragon Ares", "Casti", "Redragon", "Ossas Electronics", 12, 44.99, "Tehnologie: Cu fir, Conectare: Jack 3.5mm, Hz: 20-20000, Impedanta: 2.2 kOhm, Microfon: Da, Lungime cablu: 2, Diametru difuzor: 40mm");
+INSERT INTO Produse(id, nume, categorie, brand,  furnizor, stoc, pret, specificatii)
+VALUES ( 53004, "Casti gaming wireless Logitech G733", "Casti", "Logitech", "Ossas Electronics", 12, 729.99, "Tehnologie: Wireless, Hz: 20-20000, Impedanta: 39 Ohm, Microfon: Da, Greutate: 178g, Altele: Iluminare RGB, ");
+INSERT INTO Produse(id, nume, categorie, brand,  furnizor, stoc, pret, specificatii)
+VALUES ( 53005, "Casti gaming HyperX Cloud Stinger Core", "Casti", "HyperX", "Ossas Electronics", 12, 229.99, "Tehnologie: Cu fir, Conectare: Jack 3.5mm, Hz: 20-20000, Impedanta: 16 Ohm, Microfon: Da, Lungime cablu: 1.3, Diametru difuzor: 40mm, Greutate: 215g");
+
+
+
+INSERT INTO Produse(id, nume, categorie, brand,  furnizor, stoc, pret, specificatii)
+VALUES ( 54001, "Microfon streaming Trust Mantis GXT 232", "Microfon", "Mantis", "Ossas Electronics", 12, 142.99, "Tip: Condensator, Tip conexiune: Cu fir, Tip transmisie: Digital, Conectivitatte: USB, Tip captare: Omnidirectional, Culoare: Negru, Impedanta: 32Ohm, Sensibilitate: -38 dB");
+INSERT INTO Produse(id, nume, categorie, brand,  furnizor, stoc, pret, specificatii)
+VALUES ( 54002, "Microfon Trust Emita Plus GXT252", "Microfon", "Trust", "Ossas Electronics", 12, 419.99, "Tip: Condensator, Tip conexiune: Cu fir,Conectivitatte: USB, Tip captare: Cardioid,Omnidirectional, Culoare: Negru, Impedanta: 200Ohm, Sensibilitate: -35dB");
+INSERT INTO Produse(id, nume, categorie, brand,  furnizor, stoc, pret, specificatii)
+VALUES ( 54003, "Microfon Trust GXT212 Mico", "Microfon", "Trust", "Ossas Electronics", 12, 69.99, "Tip: Condensator, Tip conexiune: Cu fir, Tip transmisie: Digital-Analog , Conectivitatte: USB, Tip captare: Omnidirectional, Culoare: Negru, Lungime cablu: 1.8m");
+INSERT INTO Produse(id, nume, categorie, brand,  furnizor, stoc, pret, specificatii)
+VALUES ( 54004, "Microfon Trust Mico 2020, USB, stand Tripod", "Microfon", "Trust", "Ossas Electronics", 12, 69.99, "Tip: Condensator, Tip conexiune: Cu fir, Tip transmisie: Digital, Conectivitatte: USB, Tip captare: Omnidirectional, Culoare: Negru, Impedanta: 2200hm, Sensibilitate: 45 dB");
+INSERT INTO Produse(id, nume, categorie, brand,  furnizor, stoc, pret, specificatii)
+VALUES ( 54005, "Microfon gaming Razer Seiren Mini", "Microfon", "Razer", "Ossas Electronics", 12, 299.99, "Tip: Condensator, Tip conexiune: Cu fir, Tip transmisie: Digital, Conectivitatte: USB, Tip captare: Supercardioid, Culoare: Negru, Sensibilitate: 110 dB");
+
+
+
+INSERT INTO Produse(id, nume, categorie, brand,  furnizor, stoc, pret, specificatii)
+VALUES ( 60001, "Televizor Samsung, 108 cm, Smart, 4K Ultra HD", "TV", "Samsung", "Ossas Electronics", 12, 1599.99, "Diagonala display: 108cm, Tip TV: Smart TV, Tehnologie display: LED, Tehnologie speciala: HDR, Claritate imagine: 4K, Rezolutie: 3840x2160, Rata de refresh: 50Hz, Conectivitate wireless: Bluetooth,Wi-Fi");
+INSERT INTO Produse(id, nume, categorie, brand,  furnizor, stoc, pret, specificatii)
+VALUES ( 60002, "Televizor Samsung, 108 cm, Smart, 4K Ultra HD", "TV", "Samsung", "Ossas Electronics", 12, 1399.99, "Diagonala display: 108cm, Tip TV: Smart TV, Tehnologie display: LED, Tehnologie speciala: HDR, Claritate imagine: 4K, Rezolutie: 3840x2160, Rata de refresh: 50Hz, Conectivitate wireless: Bluetooth,Wi-Fi");
+INSERT INTO Produse(id, nume, categorie, brand,  furnizor, stoc, pret, specificatii)
+VALUES ( 60003, "Televizor Samsung, 80 cm, Smart", "TV", "Samsung", "Ossas Electronics", 12, 849.99 , "Diagonala display: 80cm, Tip TV: Smart TV, Tehnologie display: LED, Tehnologie speciala: HDR, Claritate imagine: 4K, Rezolutie: 1366x768, Rata de refresh: 50Hz, Conectivitate wireless: Wi-Fi");
+INSERT INTO Produse(id, nume, categorie, brand,  furnizor, stoc, pret, specificatii)
+VALUES ( 60004, "Televizor Philips, 146 cm, Smart Android", "TV", "Philips", "Ossas Electronics", 12, 2699.99, "Diagonala display: 146cm, Tip TV: Smart TV, Tehnologie display: LED, Tehnologie speciala: HDR, Claritate imagine: 4K, Rezolutie: 3840x2160, Rata de refresh: 50Hz, Conectivitate wireless: Bluetooth,Wi-Fi");
+INSERT INTO Produse(id, nume, categorie, brand,  furnizor, stoc, pret, specificatii)
+VALUES ( 60005, "Televizor Samsung, 125 cm, Smart", "TV", "Samsung", "Ossas Electronics", 12, 1799.99, "Diagonala display: 125cm, Tip TV: Smart TV, Tehnologie display: LED, Tehnologie speciala: HDR, Claritate imagine: 4K, Rezolutie: 3840x2160, Rata de refresh: 50Hz, Conectivitate wireless: Bluetooth,Wi-Fi");
+
+
+
+INSERT INTO Produse(id, nume, categorie, brand,  furnizor, stoc, pret, specificatii)
+VALUES ( 70001, "Consola Microsoft Xbox One Slim 1TB", "Gaming", "Xbox", "Ossas Electronics", 12, 1349.99, "Tip consola: harware, Platforma: Xbox One, Functii: Player Blu-ray incorporat, Cloud storage, Culoare: Alb, Lungime: 298mm, Greutate: 4.8Kg, Tip procesor: CPU - 8 Core AMD custom CPU, Tip stocare: HDD");
+INSERT INTO Produse(id, nume, categorie, brand,  furnizor, stoc, pret, specificatii)
+VALUES ( 70002, "Consola Xbox One X Metro Exodus Saga Bundle, 1TB", "Gaming", "Xbox", "Ossas Electronics", 12, 2618.99, "Tip consola: harware, Platforma: Xbox One, Culoare: Alb, Lungime: 298mm,Greutate: 3.81Kg, Tip procesor: AMD Jaguar Evolved, Tip stocare: HDD,Capacitate stocare: 1 TB");
+INSERT INTO Produse(id, nume, categorie, brand,  furnizor, stoc, pret, specificatii)
+VALUES ( 70003, "Consola Xbox One S All Digital + Fortnite DLC + Minecraft + Sea of Thieves", "Gaming", "Xbox", "Ossas Electronics", 12, 1749.99, "Tip consola: portabila, Platforma: Xbox One S, Culoare: Alb,Tip procesor: 8-core Jaguar CPU, 1.75GHz,Tip memorie RAM:DDR3, Capacitate stocare:1 TB,Jocuri incluse:Minecraft,Fortnite,Sea of Thieves");
+INSERT INTO Produse(id, nume, categorie, brand,  furnizor, stoc, pret, specificatii)
+VALUES ( 70004, "PlayStation VR2 Mega Pack + Camera PS V2 + 5 jocuri", "Gaming", "PlayStation", "Ossas Electronics", 12, 1599.99, "Device compatibil: PlayStation 4, Dimensiune imagine: 5.7 inch, Rezolutie imagine: 1920 x 1080, Rata de refresh: 120 Hz, Compatibilitate platforma: PlayStation VR, Tehnologie: VR, Greutate: 610 g");
+INSERT INTO Produse(id, nume, categorie, brand,  furnizor, stoc, pret, specificatii)
+VALUES ( 70005, "HTC VIVE PRO Full Kit", "Gaming", "HTC", "Ossas Electronics", 12, 4999.99, "Interfata: USB-C 3.0,DisplayPort 1.2, Conectivitate: Bluetooth, Rezolutie imagine: 2880 x 1600, Rata de refresh: 90 Hz, Camp de vizualizare: 110, Senzori: Senzor de proximitate, Giroscop, Motion tracking, Accelerometru");
+
+
+INSERT INTO Produse(id, nume, categorie, brand,  furnizor, stoc, pret, specificatii)
+VALUES ( 10001, "Laptop ASUS ExpertBook", "Laptop", "ASUS", "Ossas Electronics", 25, 2498.99 , "Procesor AMD Ryzen 3 3250U, 8GB DDR4, 56GB SSD, Radeon, No OS, Star Black, 15.6 inch,1920x1080 pixeli, Full HD");
+INSERT INTO Produse(id, nume, categorie, brand,  furnizor, stoc, pret, specificatii)
+VALUES ( 10002, "Laptop ultraportabil Dell", "Laptop", "Dell", "Ossas Electronics", 30, 2.200, "Procesor Intel® Celeron™ 5205U 1.90 GHz,  4 GB DDR4 , 128 GB SSD, Anti-Glare, 14 inch, 1920 x 1080 pixeli,Full HD");
+INSERT INTO Produse(id, nume, categorie, brand,  furnizor, stoc, pret, specificatii)
+VALUES ( 10003, "Laptop Gaming ASUS ROG Strix G15", "Laptop", "ASUS", "Ossas Electronics", 30, 4.500, "Procesor Intel® Core™ i5-10300H,	8 GB DDR4,	512 GB SSD, Placa video	GTX 1650 Ti, 15.6 inch, 1920 x 1080 pixeli,	Full HD");
+INSERT INTO Produse(id, nume, categorie, brand,  furnizor, stoc, pret, specificatii)
+VALUES ( 10004, "Laptop Apple MacBook Pro", "Laptop", "Apple", "Ossas Electronics", 30, 14.300, "Procesor Intel® Core™ i9 2.30 GHz, 16GB DDR4, 1 TB SSD , 16 inch, 3072 x 1920 pixeli");
+INSERT INTO Produse(id, nume, categorie, brand,  furnizor, stoc, pret, specificatii)
+VALUES ( 10005, "Laptop Lenovo V15-ADA+", "Laptop", "Lenovo", "Ossas Electronics", 30, 3.100, "Procesor AMD Ryzen 5 3500U, 8GB DDR4, 256 GB SSD, 15.6 inch, 1920 x 1080 pixeli, Full HD");
+
+
+
+INSERT INTO Produse(id, nume, categorie, brand,  furnizor, stoc, pret, specificatii)
+VALUES ( 20001, "Tableta Samsung Galaxy Tab A 10.1", "Tablete", "Samsung", "Ossas Electronics", 30, 950, "Nano SIM, Sistem de operare: Android, Model Procesor: Samsung Exynos 7904, Frecventa Procesor 1.8-1.6 GHz ");
+INSERT INTO Produse(id, nume, categorie, brand,  furnizor, stoc, pret, specificatii)
+VALUES ( 20002, "Tableta Huawei MediaPad T3 10",  "Tablete", "Huawei", "Ossas Electronics", 30, 730, "Micro SIM, Sistem de operare: Android, Model Procesor: Qualcomm Snapdragon 425, Frecventa Procesor 1.4 GHz");
+INSERT INTO Produse(id, nume, categorie, brand,  furnizor, stoc, pret, specificatii)
+VALUES ( 20003, "Apple iPad",  "Tablete", "Apple", "Ossas Electronics", 30, 1790, "Fara SIM, Sistem de operare: iPadOS, Model Procesor: Apple A10 Fusion, Frecventa Procesor 1.7-2.3 GHz");
+INSERT INTO Produse(id, nume, categorie, brand,  furnizor, stoc, pret, specificatii)
+VALUES ( 20004, "Tableta Allview VIVA 803G",  "Tablete", "Allview", "Ossas Electronics", 30, 320, "Micro SIM, Sistem de operare: Android 9.0 (Pie), Model Procesor: Cortex A7, Frecventa Procesor 1.3 GHz");
+INSERT INTO Produse(id, nume, categorie, brand,  furnizor, stoc, pret, specificatii)
+VALUES ( 20005, "Tableta Samsung Galaxy Tab S6",  "Tablete", "Samsung", "Ossas Electronics", 30, 3200, "Nano SIM, Sistem de operare: Android 9.0 Pie, Model Procesor: Octa Core, Frecventa Procesor 2.8Ghz");
+
+
+
+INSERT INTO Produse(id, nume, categorie, brand,  furnizor, stoc, pret, specificatii)
+VALUES ( 30001, "Telefon mobil Apple iPhone 12", "Telefoane", "Apple", "Ossas Electronics", 30, 4500, "Dual SIM, Sistem de operare: iOS, Model Procesor:Apple A14 Bionic, Frecventa Procesor 1.7-2.3 GHz");
+INSERT INTO Produse(id, nume, categorie, brand,  furnizor, stoc, pret, specificatii)
+VALUES ( 30002, "Telefon mobil Samsung Galaxy A20e", "Telefoane", "Samsung", "Ossas Electronics", 30, 550, "Dual SIM, Sistem de operare: Android 9.0 Pie, Model Procesor: Samsung Exynos 7884, Frecventa Procesor 1.6-1.35 GHz");
+INSERT INTO Produse(id, nume, categorie, brand,  furnizor, stoc, pret, specificatii)
+VALUES ( 30003, "Telefon mobil Huawei P40 Lite E", "Telefoane", "Huawei", "Ossas Electronics", 30, 600, "Dual SIM, Sistem de operare: Android 9, Model Procesor: HiSilicon Kirin 710F, Frecventa Procesor 2.2-1.7 GHz");
+INSERT INTO Produse(id, nume, categorie, brand,  furnizor, stoc, pret, specificatii)
+VALUES ( 30004, "Telefon mobil Xiaomi Redmi Note 9 Pro", "Telefoane", "Xiaomi", "Ossas Electronics", 30, 1100, "Dual SIM, Sistem de operare: Android 10, Model Procesor: Qualcomm SM7125 Snapdragon 720G, Frecventa Procesor 2.3-1.8 GHz");
+INSERT INTO Produse(id, nume, categorie, brand,  furnizor, stoc, pret, specificatii)
+VALUES ( 30005, "Telefon mobil Oppo A12", "Telefoane", "Oppo", "Ossas Electronics", 30, 600, "Dual SIM, Sistem de operare: Android 9, Model Procesor: MediaTek Helio P35 MT6765, Frecventa Procesor 1.8-2.35 GHz");
+
+
+
+INSERT INTO Produse(id, nume, categorie, brand,  furnizor, stoc, pret, specificatii)
+VALUES ( 41001, "Sistem Gaming ASUS ROG Strix GL10CS", "Desktop", "ASUS", "Ossas Electronics", 30, 3100, " Sistem de operare: fara, Procesor Intel®i5 9400F, Frecventa Procesor 2.9 GHz turbo 4.1 GHz, 8 GB DDR4, 512 GB SSD, Placa video nVidia GeForce GTX 1060");
+INSERT INTO Produse(id, nume, categorie, brand,  furnizor, stoc, pret, specificatii)
+VALUES ( 41002, "Sistem Desktop PC Gaming Serioux",  "Desktop", "ASUS", "Ossas Electronics", 30, 2400, " Sistem de operare: fara, Procesor Intel®i3 9100F, Frecventa Procesor 3.6 GHz turbo 4.2 GHz, 8 GB DDR4, 500 GB SSD, Placa video nVidia GeForce GTX 1650");
+INSERT INTO Produse(id, nume, categorie, brand,  furnizor, stoc, pret, specificatii)
+VALUES ( 41003, "Sistem Desktop PC Gaming Serioux", "Desktop", "ASUS", "Ossas Electronics", 30, 2800, "Sistem de operare: fara, Procesor Intel®i5 9400F, Frecventa Procesor 2.9 GHz turbo 4.1 GHz, 8 GB DDR4, 512 GB SSD, Placa video nVidia GeForce GTX 1650");
+INSERT INTO Produse(id, nume, categorie, brand,  furnizor, stoc, pret, specificatii)
+VALUES ( 41004, "Sistem Desktop PC Gaming Serioux", "Desktop", "ASUS", "Ossas Electronics", 30, 3100, "Sistem de operare: fara, Procesor Intel®i5 10400F, Frecventa Procesor 2.9 GHz turbo 4.3 GHz, 16 GB DDR4,500 GB SSD, Placa video nVidia GeForce GTX 1650");
+INSERT INTO Produse(id, nume, categorie, brand,  furnizor, stoc, pret, specificatii)
+VALUES ( 41005, "Sistem Desktop PC Gaming Serioux", "Desktop", "ASUS", "Ossas Electronics", 30, 3700, "Sistem de operare: fara, Procesor Intel®i5 10400F, Frecventa Procesor 2.9 GHz turbo 4.3 GHz, 16 GB DDR4, 500 GB SSD, Placa video nVidia GeForce GTX 1660 Super");
+
+
+
+INSERT INTO Produse(id, nume, categorie, brand,  furnizor, stoc, pret, specificatii)
+VALUES ( 42001,"Monitor Curbat Gaming LED VA", "Monitor", "Samsung", "Ossas Electronics", 10, 702, "Timp de raspuns: 4 ms, Negru, Full HD, FreeSync, Black Equalizer, Rata de refresh 145 Hz, Tehnologie display: VA, Diagonala: 23.5 inch, Rezolutie: 1920 x 1080 pixeli");
+INSERT INTO Produse(id, nume, categorie, brand,  furnizor, stoc, pret, specificatii)
+VALUES ( 42002, "Monitor Curbat Gaming LED MVA", "Monitor", "AOC", "Ossas Electronics", 30, 860, "Timp de raspuns: 1 ms, Negru, Full HD, FreeSync, Flicker-Free, Rata de refresh 144 Hz, Tehnologie display: MVA, Diagonala: 23.6 inch, Rezolutie: 1920 x 1080 pixeli");
+INSERT INTO Produse(id, nume, categorie, brand,  furnizor, stoc, pret, specificatii)
+VALUES ( 42003, "Monitor Gaming LED IPS ASUS TUF", "Monitor", "ASUS", "Ossas Electronics", 30, 1050, "Timp de raspuns: 1 ms, Negru, Full HD, FreeSync, Flicker-Free, Rata de refresh 144 Hz, Tehnologie display: MVA, Diagonala: 23.8 inch, Rezolutie: 1920 x 1080 pixeli");
+INSERT INTO Produse(id, nume, categorie, brand,  furnizor, stoc, pret, specificatii)
+VALUES ( 42004, "Monitor LED TN ASUS", "Monitor", "ASUS", "Ossas Electronics", 30, 370, "Timp de raspuns: 5 ms, Negru, Full HD, Low blue light, Flicker-Free, Rata de refresh 60 Hz, Tehnologie display: LED, Diagonala: 21.5 inch, Rezolutie: 1920 x 1080 pixeli");
+INSERT INTO Produse(id, nume, categorie, brand,  furnizor, stoc, pret, specificatii)
+VALUES ( 42005, "Monitor Curbat Gaming LED MVA", "Monitor", "AOC", "Ossas Electronics", 30, 1000, "Timp de raspuns: 1 ms, Negru, Full HD, FreeSync, Flicker-Free, Rata de refresh 144 Hz, Tehnologie display: MVA, Diagonala: 27 inch, Rezolutie: 1920 x 1080 pixeli");
+
+
+INSERT INTO Produse(id, nume, categorie, brand,  furnizor, stoc, pret, specificatii)
+VALUES ( 80001, "Aparat foto Mirrorless Sony Alpha", "Foto", "Sony", "Ossas Electronics", 30, 5000, "Diagonala display: 3 inch, Rezolutie senzor: 24.3 Mpx, Rezolutie video: Full HD, Tip focalizare:Automata, Puncte de focalizare: 117"); 
+INSERT INTO Produse(id, nume, categorie, brand,  furnizor, stoc, pret, specificatii)
+VALUES ( 80002, "Aparat foto Mirrorless Sony Alpha A6000 L", "Foto", "Sony", "Ossas Electronics", 30, 2200, "Diagonala display: 3 inch, Rezolutie senzor: 24.3 Mpx, Rezolutie video: Full HD, Tip focalizare:Automata, Puncte de focalizare: 179");
+INSERT INTO Produse(id, nume, categorie, brand,  furnizor, stoc, pret, specificatii)
+VALUES ( 80003, "Aparat foto DSLR Canon EOS 2000D", "Foto", "Canon", "Ossas Electronics", 30, 1800, "Diagonala display: 3 inch, Rezolutie senzor: 24.1 Mpx, Rezolutie video: Full HD, Tip obturator: Electronic, Viteza obturator:30-1/4000 sec");
+INSERT INTO Produse(id, nume, categorie, brand,  furnizor, stoc, pret, specificatii)
+VALUES ( 80004, "Obiectiv Nikon", "Foto", "Nikon", "Ossas Electronics", 30, 990, "Brand compatibil: Nikon, Tip obiectiv: standard, Tip focalizare: Automata, Compatibilitate format senzor: Full Frame, Lungime 52.5 mm, Diametru filtru 58 mm");
+INSERT INTO Produse(id, nume, categorie, brand,  furnizor, stoc, pret, specificatii)
+VALUES ( 80005, "Obiectiv Sony", "Foto", "Samsung", "Ossas Electronics", 30, 2400, "Brand compatibil: Sony,Tip obiectiv: standard,Tip focalizare Automata, Zoom optic: 0.16x");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
